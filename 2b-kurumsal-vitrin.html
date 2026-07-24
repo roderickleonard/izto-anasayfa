@@ -14,7 +14,7 @@
   a{color:inherit;text-decoration:none;}
   a:hover{color:#E65D57;}
   input,textarea,select,button{font-family:inherit;}
-  main{position:relative;width:100%;max-width:1440px;margin:0 auto;overflow-x:hidden;}
+  main{position:relative;width:100%;overflow-x:hidden;}
   @font-face{font-family:'Neuzeit Grotesk';font-weight:300;src:url('fonts/Neuzeit_Grotesk_Light.otf') format('opentype');font-display:swap;}
   @font-face{font-family:'Neuzeit Grotesk';font-weight:400;src:url('fonts/Neuzeit_Grotesk.otf') format('opentype');font-display:swap;}
   @font-face{font-family:'Neuzeit Grotesk';font-weight:700;src:url('fonts/Neuzeit_Grotesk_Bold.otf') format('opentype');font-display:swap;}
@@ -34,7 +34,14 @@
 </head>
 <body>
 <main>
-<div style="flex:1; display:flex; align-items:center; gap:10px; background:rgba(255,255,255,.94); border-radius:14px; padding:0 18px; height:52px; max-width:560px; margin:0 auto;">
+    <!-- NAV -->
+    <header style="background:rgba(255,255,255,.92); border-bottom:1px solid rgba(0,0,0,.08);">
+      <div style="max-width:1240px; margin:0 auto; padding:16px 44px; display:flex; align-items:center; gap:22px;">
+        <div style="display:flex; align-items:center; gap:14px; flex:0 0 auto;">
+          <img src="https://api.izto.org.tr/storage/HeaderFixed/original/A9YNZTxsGJmINlY9.svg" alt="İzmir Ticaret Odası logo" style="height:58px;width:58px;object-fit:contain;display:block;" />
+          <div><div style="font-family:'Neuzeit Grotesk Cond';font-size:20px;color:#1F1E58;line-height:.95;">İZMİR TİCARET ODASI</div><div style="font-size:10px;color:#586574;font-weight:700;letter-spacing:.16em;margin-top:3px;text-transform:uppercase;">1885'ten bugüne</div></div>
+        </div>
+        <div style="flex:1; display:flex; align-items:center; gap:10px; background:rgba(255,255,255,.94); border:1px solid rgba(0,0,0,.08); border-radius:14px; padding:0 18px; height:52px; max-width:560px; margin:0 auto;">
           <i data-lucide="search" width="20" height="20" style="color:#2B2A7A;"></i>
           <input placeholder="Ne aramıştınız?" style="border:none;background:transparent;outline:none;width:100%;font-family:inherit;font-size:15px;color:#17212B;" />
         </div>
@@ -114,7 +121,7 @@
       </div>
     </div>
 
-    </div></div>
+    </div>
     <!-- ACCORDION -->
     <div style="background:#EFE4CE;padding:64px 0;"><div style="max-width:1240px; margin:0 auto; padding:0 44px;">
       <div style="text-align:center;margin-bottom:26px;"><div style="font-size:12px;font-weight:700;letter-spacing:.12em;color:#E65D57;text-transform:uppercase;margin-bottom:8px;">Bilgi Bankası</div><h2 style="font-family:'Neuzeit Grotesk Cond';font-size:36px;color:#1F1E58;margin:0;">Sıkça Sorulan Sorular</h2></div>
@@ -134,7 +141,7 @@
       </div>
     </div>
 
-    </div></div>
+    </div>
     <!-- footer -->
     <footer style="margin-top:0; background:#1F1E58; color:#B9BCE0; padding:60px 44px 28px;">
       <div style="max-width:1240px; margin:0 auto;">
