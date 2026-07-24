@@ -1,0 +1,85 @@
+# ---- Yapay zeka araçları / asistan dosyaları ----
+# Claude / Anthropic
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.claude*/
+.anthropic/
+.mcp.json
+mcp.json
+
+# graphify (bilgi grafiği çıktıları)
+graphify-out/
+.graphify/
+
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+
+# GitHub Copilot
+.github/copilot-instructions.md
+copilot-instructions.md
+.copilot/
+
+# Aider
+.aider*
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache*
+
+# Windsurf / Codeium
+.windsurf/
+.windsurfrules
+.codeium/
+
+# Cline / Roo
+.clinerules
+.cline/
+.roo/
+.roomodes
+
+# Continue / Cody / Tabnine / Zed AI
+.continue/
+.cody/
+.tabnine/
+.zed/
+
+# Diğer ajanlar
+AGENTS.md
+AGENT.md
+.agent/
+.agents/
+.devin/
+.goose/
+.specstory/
+.gpt/
+.openai/
+.llm/
+.ai/
+ai-notes/
+*.aiignore
+prompts/
+.prompt/
+
+# API anahtarları (AI servisleri dahil)
+.env
+.env.*
+*.key
+secrets.json
+
+# ---- Sistem / editör ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Bağımlılıklar / build ----
+node_modules/
+dist/
+build/
+*.log
